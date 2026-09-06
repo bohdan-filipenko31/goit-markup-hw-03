@@ -1,0 +1,38 @@
+.header {
+}
+.nav {
+}
+.nav-list {
+}
+.nav-item {
+}
+.nav-link {
+  font-weight: 500;
+  line-height: 1.5;
+  color: #2e2f42;
+  letter-spacing: 0.02em
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
+}
+.nav-link-features:active {
+  text-decoration: underline;
+}
+.contacts {
+}
+.contacts-list {
+}
+.contacts-item {
+}
+.contacts-info {
+  line-height: 1.5;
+  color: #434455;
+  font-style: normal;
+  letter-spacing: 0.02em;
+}
+.contacts-info:hover,
+.contacts-info:focus {
+  line-height: 1.5;
+  color: #404bbf;
+}
