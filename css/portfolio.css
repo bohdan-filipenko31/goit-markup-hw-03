@@ -3,6 +3,9 @@
 .portfolio-title {
 }
 .portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
 }
 .portfolio-item {
 }

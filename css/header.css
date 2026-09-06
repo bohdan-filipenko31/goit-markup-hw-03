@@ -1,16 +1,27 @@
 .header {
 }
+.header .container {
+  display: flex;
+}
 .nav {
+  margin-left: auto;
 }
 .nav-list {
+  display: flex;
+  gap: 40px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
 }
 .nav-item {
 }
 .nav-link {
+  padding: 24px 0;
   font-weight: 500;
   line-height: 1.5;
   color: #2e2f42;
-  letter-spacing: 0.02em
+  letter-spacing: 0.02em;
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -20,12 +31,20 @@
   text-decoration: underline;
 }
 .contacts {
+  margin-left: auto;
 }
 .contacts-list {
+  display: flex;
+  gap: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
 }
 .contacts-item {
 }
 .contacts-info {
+  padding: 24px 0;
   line-height: 1.5;
   color: #434455;
   font-style: normal;

@@ -4,8 +4,12 @@
 .team-title {
 }
 .team-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
 }
 .team-item {
+  width: calc((100% - 24px * 3)) / 4;
   background-color: #fff;
 }
 .team-ill {
