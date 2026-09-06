@@ -1,10 +1,11 @@
 .header {
+  border-bottom: 1px solid #e7e9fc;
 }
 .header .container {
   display: flex;
 }
 .nav {
-  margin-left: auto;
+  margin-left: 76px;
 }
 .nav-list {
   display: flex;

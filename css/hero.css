@@ -1,10 +1,7 @@
 .hero {
   background-color: #2e2f42;
-  display: flex;
-  align-items: center;
   justify-content: flex-start;
-  flex-direction: column;
-  gap: 48px;
+  padding: 188px 0;
 }
 .hero-title {
   font-weight: 700;
@@ -13,6 +10,8 @@
   text-align: center;
   color: #fff;
   letter-spacing: 0.02em;
+  margin-bottom: 48px;
+  max-width: 496px;
 }
 .hero-button {
   border-radius: 4px;
@@ -27,6 +26,8 @@
   color: #fff;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   font-weight: 500;
+  text-align: center;
+  margin: 0 auto;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;

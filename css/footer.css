@@ -1,6 +1,7 @@
 .footer {
   display: flex;
-  background-color: #2e2f42;;
+  background-color: #2e2f42;
+  padding: 100px 0;
 }
 .footer-link {
   color: #f4f4fd;;
@@ -11,4 +12,7 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+.footer-wrapper {
+  max-width: 264px;
 }
